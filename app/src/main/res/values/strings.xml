@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">SwarajyaDholTasha</string>
+    <string name="title_activity_swarajya">Swarajya Dhol Tasha Pathak</string>
+    <string name="large_text">
+        " svarajya Zaola taSaa va Qvaja pqak kaLBaaornagar .\n\n"
+
+        "saravaacao izkaNa : 51 fuTI maa$tIcyaa javaL kaLBaaornagar.\n\n"
+
+
+        "saravaacaI vaoL : saayaM. 7.00 to 9.30. "
+
+
+
+    </string>
+    <string name="title_activity_contact__us">Contact Us</string>
+    <string name="title_activity_m_contact__us">Contact Us</string>
+    <string name="title_activity_social__media">Social Media</string>
+    <string name="home">svarajya haoma</string>
+    <string name="madmission">saBaasad naaoMdnaI Aja-</string>
+    <string name="mContact">saMpk-</string>
+    <string name="mSocial">saaoSala imaDIyaa</string>
+    <string name="mDevloper">Dovalapr ivaYayaI</string>
+    <string name="mRahul">rahUla datIr</string>
+    <string name="mInstr">ka^la krNyaasaazI Cayaaica~avar i@lak kra</string>
+    <string name="mPratik">p`itk ivacaaro</string>
+    <string name="title_activity_m_social_media">Social_media</string>
+    <string name="mFollow">KalaIla pojavar fa^laao kra</string>
+    <string name="mInstruct">fa^laao krNyaasaazI Cayaaica~avar i@lak kra</string>
+    <string name="title_activity_devloper">Devloper</string>
+    <string name="title_activity_admission_form">Admission Form</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="mGallery">ga^larI</string>
+    <string name="title_activity_eng__swarajya">Swarajya</string>
+    <string name="English">
+        "Swarajya Dhol Tasha Pathak Kalbhornagar Chinchwad\n\n"
+
+        "Practice Timing : 7.00 PM To 9.30 PM\n\n"
+
+        "Practice Place : Near 51 Feet Hanuman Statue Kalbhornagar"
+
+    </string>
+    <string name="pratik">Pratik Vichare</string>
+    <string name="rahul">Rahul Datir</string>
+    <string name="instrucyions">( Click On The Photo To Make Call )</string>
+    <string name="email">swarajya011@gmail.com</string>
+    <string name="satish">Satish N. Sonwale</string>
+    <string name="sg">SG Devlopers</string>
+    <string name="follow">Follow Me On</string>
+    <string name="instruct">( Click On Icon To Follow Me )</string>
+    <string name="enHome">Home</string>
+    <string name="engAdmission">Admission Form</string>
+    <string name="engGallery">Gallery</string>
+    <string name="abtDevlpr">About Developer</string>
+    <string name="engContact">Contact Us</string>
+    <string name="engSocial">Social Media</string>
+    <string name="sEmail">swarajya011@gmail.com</string>
+</resources>

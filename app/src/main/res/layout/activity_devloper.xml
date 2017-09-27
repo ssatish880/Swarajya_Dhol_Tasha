@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#102027"
+    tools:context="com.shreeganesha.developers.swarajya_dhol_tasha.Devloper">
+
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:id="@+id/Satish"
+        android:src="@drawable/developer"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Devloper"
+        android:textStyle="bold"
+        android:text="@string/satish"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textColor="#f58402"
+        app:layout_constraintTop_toBottomOf="@+id/Satish" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sg"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        android:textColor="#ffff"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Devloper"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintVertical_bias="0.019"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="@string/follow"
+        android:textSize="15sp"
+        android:textColor="#f49e7a"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.0"
+        android:id="@+id/textView9" />
+
+    <ImageView
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:id="@+id/dev_fb"
+        android:src="@drawable/facebook"
+        android:layout_marginLeft="56dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="MissingConstraints,RtlCompat"
+        app:layout_constraintEnd_toStartOf="@+id/dev_insta"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/dev_insta"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:text="@string/instruct"
+        android:id="@+id/dev_Follow"
+        android:alpha="0.7"
+        android:layout_marginBottom="8dp"
+        android:textColor="#ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/dev_insta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.095"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:id="@+id/dev_insta"
+        android:src="@drawable/insta"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/call" />
+
+    <ImageView
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:id="@+id/dev_twitter"
+        android:src="@drawable/twitter"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintStart_toEndOf="@+id/dev_insta"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dev_insta"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/call"
+        android:id="@+id/call"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/dev_Follow" />
+
+
+</android.support.constraint.ConstraintLayout>

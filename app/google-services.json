@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "967659554340",
+    "firebase_url": "https://swarajyadholtashapathak-1973f.firebaseio.com",
+    "project_id": "swarajyadholtashapathak-1973f",
+    "storage_bucket": "swarajyadholtashapathak-1973f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967659554340:android:650d8ce2b81d32cd",
+        "android_client_info": {
+          "package_name": "com.shreeganesha.developers.swarajya_dhol_tasha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967659554340-kd6bigkovgu7etbua9gt99aasd686aa5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shreeganesha.developers.swarajya_dhol_tasha",
+            "certificate_hash": "1bd469931a98ca55ceed7a48ddc796a8e3d6d0c7"
+          }
+        },
+        {
+          "client_id": "967659554340-3t4671af2g2fa65rq0abi4ktaurbo41g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoAv_BtBxR1XtVsWlSbl1QEBnqSNjkmPA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967659554340-3t4671af2g2fa65rq0abi4ktaurbo41g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

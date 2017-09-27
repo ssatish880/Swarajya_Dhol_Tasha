@@ -1,0 +1,77 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shreeganesha.developers.swarajya_dhol_tasha">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+                <activity android:name="com.shreeganesha.developers.swarajya_dhol_tasha.Home"
+                    android:screenOrientation="portrait"/>
+                <activity
+                    android:name="Swarajya"
+                    android:label="@string/title_activity_swarajya"
+                    android:theme="@style/AppTheme" />
+                <activity
+                    android:name="com.shreeganesha.developers.swarajya_dhol_tasha.Contact_Us"
+                    android:label="@string/title_activity_contact__us"
+                    android:theme="@style/AppTheme" />
+                <activity android:name="com.shreeganesha.developers.swarajya_dhol_tasha.Wellcome"
+                    android:screenOrientation="portrait">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity>
+                <activity android:name="com.shreeganesha.developers.swarajya_dhol_tasha.Marathi_Home"
+                    android:screenOrientation="portrait"/>
+                <activity
+                    android:name="com.shreeganesha.developers.swarajya_dhol_tasha.mContact_Us"
+                    android:screenOrientation="portrait"
+                    android:label="@string/title_activity_m_contact__us"
+                    android:theme="@style/AppTheme" />
+                <activity
+                    android:name="com.shreeganesha.developers.swarajya_dhol_tasha.Social_Media"
+                    android:screenOrientation="portrait"
+                    android:label="@string/title_activity_social__media"
+                    android:theme="@style/AppTheme" />
+                <activity
+                    android:name="com.shreeganesha.developers.swarajya_dhol_tasha.mSocial_media"
+                    android:label="@string/title_activity_m_social_media"
+                    android:theme="@style/AppTheme" />
+                <activity
+                    android:name="com.shreeganesha.developers.swarajya_dhol_tasha.Devloper"
+                    android:label="@string/title_activity_devloper"
+                    android:screenOrientation="portrait"
+                    android:theme="@style/AppTheme" />
+                <activity
+                    android:name="com.shreeganesha.developers.swarajya_dhol_tasha.Admission_form"
+                    android:label="@string/title_activity_admission_form"
+                    android:theme="@style/AppTheme" />
+                <activity
+                    android:name="com.shreeganesha.developers.swarajya_dhol_tasha.Gallery"
+                    android:label="@string/title_activity_gallery"
+                    android:theme="@style/AppTheme" />
+                <activity
+                    android:name="Eng_Swarajya"
+                    android:screenOrientation="portrait"
+                    android:label="@string/title_activity_eng__swarajya"
+                    android:theme="@style/AppTheme">
+
+                </activity>
+
+
+</application>
+
+
+
+</manifest>

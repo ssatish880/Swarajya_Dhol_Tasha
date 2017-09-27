@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#102027"
+    tools:context="com.shreeganesha.developers.swarajya_dhol_tasha.Contact_Us">
+
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:src="@drawable/rahul"
+        android:id="@+id/imgRahul"
+        android:layout_above="@+id/textView5"
+        android:layout_toLeftOf="@+id/imgPratik"
+        android:layout_toStartOf="@+id/imgPratik"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintEnd_toStartOf="@+id/imgPratik"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgPratik"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toTopOf="@+id/imgPratik" />
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:src="@drawable/pratik"
+        android:id="@+id/imgPratik"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintStart_toEndOf="@+id/imgRahul"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="96dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pratik"
+        android:id="@+id/tv_Pratik"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/imgPratik"
+        android:layout_alignStart="@+id/imgPratik"
+        app:layout_constraintStart_toStartOf="@+id/imgPratik"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/imgPratik"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imgPratik"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/rahul"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/textView5"
+        android:textColor="#ffff"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/imgRahul"
+        android:layout_alignStart="@+id/imgRahul"
+        app:layout_constraintStart_toStartOf="@+id/imgRahul"
+        app:layout_constraintEnd_toEndOf="@+id/imgRahul"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintTop_toBottomOf="@+id/imgRahul"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_Pratik"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:text="@string/instrucyions"
+        android:alpha="0.7"
+        android:textColor="#ffff"
+        android:id="@+id/textView7"
+        android:layout_above="@+id/imgRahul"
+        android:layout_alignRight="@+id/imgPratik"
+        android:layout_alignEnd="@+id/imgPratik"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/swarajya"
+        android:layout_alignBottom="@+id/imgPratik"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textStyle="bold"
+        android:textColor="#ef0707"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

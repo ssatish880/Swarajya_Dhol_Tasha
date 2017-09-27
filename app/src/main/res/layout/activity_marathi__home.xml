@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#102027"
+    tools:context="com.shreeganesha.developers.swarajya_dhol_tasha.Marathi_Home">
+
+
+
+    <ImageView
+        android:id="@+id/mHome"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/home"
+        android:layout_marginTop="60dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="52dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mAdms"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/mAdms"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.277"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="8dp"
+        />
+
+    <ImageView
+        android:id="@+id/mAdms"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/admission"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mHome"
+        app:layout_constraintTop_toTopOf="@+id/mHome"
+        android:layout_alignTop="@+id/mHome"
+        android:layout_toRightOf="@+id/mHome"
+        android:layout_toEndOf="@+id/mHome"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/home"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:id="@+id/mTV_Home"
+        android:layout_below="@+id/mHome"
+        android:layout_alignLeft="@+id/mHome"
+        android:layout_alignStart="@+id/mHome" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/madmission"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:id="@+id/mTV_Adms"
+        android:layout_below="@+id/mAdms"
+        android:layout_alignLeft="@+id/mAdms"
+        android:layout_alignStart="@+id/mAdms" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mContact"
+        android:textColor="#fff"
+        android:id="@+id/mTV_Contact"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@+id/mCont"
+        android:layout_alignLeft="@+id/mCont"
+        android:layout_alignStart="@+id/mCont"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mSocial"
+        android:id="@+id/mTV_Social"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_below="@+id/mSoc"
+        android:layout_alignLeft="@+id/mSoc"
+        android:layout_alignStart="@+id/mSoc" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mGallery"
+        android:id="@+id/mTV_Share"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_below="@+id/mGallery"
+        android:layout_alignLeft="@+id/mTV_Contact"
+        android:layout_alignStart="@+id/mTV_Contact" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mDevloper"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:id="@+id/mTV_Devloper"
+        android:layout_below="@+id/mGallery"
+        android:layout_alignLeft="@+id/mDevloper"
+        android:layout_alignStart="@+id/mDevloper" />
+
+    <ImageView
+        android:id="@+id/mCont"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/contact"
+        app:layout_constraintEnd_toEndOf="@+id/mHome"
+        app:layout_constraintStart_toStartOf="@+id/mHome"
+        app:layout_constraintBottom_toTopOf="@+id/mSoc"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/mHome"
+        app:layout_constraintVertical_bias="0.949"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/mHome"
+        android:layout_alignStart="@+id/mHome" />
+
+    <ImageView
+        android:id="@+id/mSoc"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/social"
+        app:layout_constraintStart_toStartOf="@+id/mAdms"
+        app:layout_constraintEnd_toEndOf="@+id/mAdms"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintBottom_toTopOf="@+id/mDevloper"
+        app:layout_constraintTop_toBottomOf="@+id/mAdms"
+        app:layout_constraintVertical_bias="0.949"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/mAdms"
+        android:layout_alignStart="@+id/mAdms" />
+
+    <ImageView
+        android:id="@+id/mGallery"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/gallary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/mCont"
+        app:layout_constraintEnd_toEndOf="@+id/mCont"
+        app:layout_constraintTop_toTopOf="@+id/mDevloper"
+        android:layout_alignTop="@+id/mDevloper"
+        android:layout_alignLeft="@+id/mHome"
+        android:layout_alignStart="@+id/mHome" />
+
+    <ImageView
+        android:id="@+id/mDevloper"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/devloper"
+        android:layout_marginBottom="53dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/mSoc"
+        app:layout_constraintEnd_toEndOf="@+id/mSoc"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/mAdms"
+        android:layout_alignStart="@+id/mAdms" />
+
+</RelativeLayout>
